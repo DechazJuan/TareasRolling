@@ -5,11 +5,9 @@ console.log (" ");
 
 
 for (let index = 1; index <= 10; index++) {
-    if (index === 1) {
+    if (index === 1 || index === 10) {
         console.log("-----------------------------");
         
-    } else if (index === 10) {
-        console.log("-----------------------------");
     } else {
         console.log("!                           !");
     }
@@ -58,3 +56,4 @@ console.log ("  *             *    *");
 console.log (" *               * *");
 console.log ("* * * * * * * * * *");
 */
+
